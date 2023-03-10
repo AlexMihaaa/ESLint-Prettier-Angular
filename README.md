@@ -45,7 +45,11 @@ npm install prettier-eslint eslint-config-prettier eslint-plugin-prettier -save-
     {
       "files": ["*.ts"],
       "extends": [
-        "plugin:prettier/recommended"
+        "plugin:prettier/recommended",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@angular-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates"
       ],
     },
     {
